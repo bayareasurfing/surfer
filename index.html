@@ -1,21 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  welcome surfer🏄‍♀️🏄‍♂️
-
-  beginner: cowell, jacks
-  wetsuit: 
-    thickness: 4/3 5/4 
-    brand: o‘neil/xcel
-  board: 8' or above (costco sell 8' funboard)
-
-  注意：high tide的时候 不要在Santa Cruz的浪点下水
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0px;
+      margin: 0px;
+    }
+    ul {
+      list-style-type: none;
+    }
+    .margin-bottom {
+      margin-bottom: 10px;
+    }
+    .flex {
+      display: flex;
+    }
+    .flex-center {
+      justify-content: center;
+      align-items: center;
+    }
+    .flex-column {
+      flex-direction: column;
+    }
+    .root {
+      margin: auto;
+      width: 100%;
+    }
+  </style>
+  <body>
+    <div class="root flex flex-center flex-column">
+      <h1>welcome bay area surfer🏄‍♀️🏄‍♂️</h1>
+      <br />
+        <div class="margin-bottom flex flex-center flex-column">
+          <h4>beginner spot:</h4>
+          <ul>
+            <li>cowell</li>
+            <li>jacks</li>
+          </ul>
+        </div>
+        <div class="margin-bottom flex flex-center flex-column">
+          <h4>wetsuit:</h4>
+          <ul>
+            <li>thickness: 4/3 or 5/4</li>
+            <li>brand: o‘neil or xcel</li>
+          </ul>
+        </div>
+        <div class="margin-bottom flex flex-center flex-column">
+          <h4>board:</h4>
+          <ul><li>8' or above funboard</li></ul>
+          </ul>
+        </div>
+      <b style="color: rgb(145, 20, 20);">注意：high tide的时候 不要在Santa Cruz的浪点下水</b>
+    </div>
+  </body>
 </html>
